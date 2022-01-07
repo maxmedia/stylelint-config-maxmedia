@@ -1,6 +1,6 @@
 {
   "name": "@maxmedia/stylelint-config-maxmedia",
-  "version": "1.0.0-alpha.0",
+  "version": "1.0.0",
   "description": "MaxMedia styleie configurations",
   "main": "index.js",
   "scripts": {
