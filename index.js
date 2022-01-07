@@ -1,5 +1,4 @@
 module.exports = {
-  configBasedir: 'node_modules',
   extends: 'stylelint-config-standard',
   plugins: [
     'stylelint-scss'

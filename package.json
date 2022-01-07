@@ -1,6 +1,6 @@
 {
   "name": "@maxmedia/stylelint-config-maxmedia",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MaxMedia styleie configurations",
   "main": "index.js",
   "scripts": {
@@ -23,14 +23,16 @@
     "url": "https://github.com/maxmedia/stylelint-config-maxmedia/issues"
   },
   "homepage": "https://github.com/maxmedia/stylelint-config-maxmedia#readme",
+  "dependencies": {
+    "stylelint-config-standard": "^22.0.0",
+    "stylelint-scss": "^3.20.1"
+  },
   "peerDependencies": {
     "stylelint": "^13.13.1"
   },
   "devDependencies": {
     "@maxmedia/eslint-config-maxmedia": "^1.0.0",
     "eslint": "^7.32.0",
-    "stylelint": "^13.13.1",
-    "stylelint-config-standard": "^22.0.0",
-    "stylelint-scss": "^3.20.1"
+    "stylelint": "^13.13.1"
   }
 }
